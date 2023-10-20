@@ -1,0 +1,2 @@
+# GreetSPM
+A swift pacakage
