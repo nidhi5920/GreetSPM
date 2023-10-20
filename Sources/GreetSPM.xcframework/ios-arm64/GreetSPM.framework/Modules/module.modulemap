@@ -1,0 +1,11 @@
+framework module GreetSPM {
+  umbrella header "GreetSPM.h"
+
+  export *
+  module * { export * }
+}
+
+module GreetSPM.Swift {
+    header "GreetSPM-Swift.h"
+    requires objc
+}
